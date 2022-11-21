@@ -1,0 +1,401 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&family=Lobster&display=swap');
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.bg-theme{
+  background-color: #821511;
+}
+
+.maintxt{
+  background-size: cover;
+  background-image: url(./assets/bg-img.jpg);
+  height: 100vh;
+
+}
+
+.maintxt h2{
+  padding-top: 50vh;
+  color: #282c34;
+  padding-right: 30vh;
+}
+
+.maintxt h5{
+  padding-right: 30vh;
+}
+
+.menu-items{
+  width: 100%;
+  min-height: 100px;
+  
+}
+
+.menu-btn{
+  width: 100px;
+  float: left;
+  margin-left: 80px;
+  margin-top: 10px;
+  
+}
+
+
+
+.footer{
+  background-color: #1c2331;
+
+}
+
+
+
+.icons{
+  font-size: 2em;
+  margin-right: 20px;
+}
+
+.cardcss{
+  width: 18rem;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+}
+
+.cardcss:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.rowcss{
+  margin-top: 100px;
+}
+
+.cardcss img{
+  height: 220px;
+}
+
+.footer-section-2 hr{
+  width: 60px;
+  background-color: #7c4dff;
+  height: 2px;
+  
+}
+
+.footer-contact-icons{
+  margin-right: 10px;
+  font-size: 1.5em;
+}
+
+.copyright{
+  background-color: #282c34;
+}
+
+.contact-img1{
+  background-image: url(./assets/contactp.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  height: 100vh;
+}
+
+.footer-para{
+  color: white;
+  font-size: 1.5em;
+  font-weight: 500;
+  padding-top: 40vh;
+}
+
+.contact-img1 p{
+  color: white;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.contact-form1{
+  margin-top: 30px;
+  
+}
+
+.label1{
+  float: left;
+}
+
+.contact-btn{
+  width: 150px;
+}
+
+.about-page{
+  background-image: url(./assets/about.jpg);
+  height: 90vh;
+  background-size: cover;
+  
+}
+
+.about-items{
+  float: left;
+  padding-top: 30vh;
+}
+
+.about-items h4{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em
+}
+
+.about-us{
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+  color: brown;
+  padding-bottom: 40px;
+}
+
+.div-two p{
+    font-size: 1.5em;
+}
+
+.price-txt{
+  float: left;
+  font-weight:bold;
+  font-style: italic;
+}
+
+.navbar-header{
+  /* height: 100px; */
+}
+
+.navbar-header-menu{
+  font-weight: bold;
+  color: white;
+  margin-right: 20px;
+}
+
+.navbar-header-menu:hover{
+  color: orangered;
+  transition: 0.3s ease-out;
+}
+
+.home-video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  right: 0;
+  position: absolute;
+}
+
+.video-content{
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  padding-bottom: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 50%;
+}
+
+.video-content h3{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.overlay{
+  width: 100%;
+  height: 100vh;
+
+}
+
+.home-story h1{
+  margin-top: 50px;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-size: 3.5em;
+  margin-right: 800px;
+  color: #821511;
+}
+
+.home-story p{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  margin-bottom: 50px;
+}
+
+.home-items{
+  width: 100%;
+  height: 100vh;
+  background-color: azure;
+  padding-bottom: 30px;
+}
+
+.home-items h2{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  color: #821511;
+  padding-top: 20px;
+  font-size: 3.5em;
+  float: left;
+  margin-left: 50px;
+  font-weight: bolder;
+}
+
+.home-items1{
+  
+  height: 74%;
+  overflow: hidden;
+  
+}
+
+.error{
+  color: red;
+}
+
+
+
+.cardcss1{
+  width: 14rem;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+  margin-top: 30px;
+}
+
+.cardcss1:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.cardcss1 img{
+  height: 170px;
+}
+
+
+/* square buttons */
+.rec.rec-arrow {
+  background-color: #821511;
+}
+/* round buttons on hover */
+.rec.rec-arrow:hover {
+  background-color: #821511;
+  
+}
+/* hide disabled buttons */
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+/* disable default outline on focused items */
+/* add custom outline on focused items */
+.rec-carousel-item:focus {
+  outline: none;
+  box-shadow: inset 0 0 1px 1px lightgrey;
+}
+
+.checkOut-home{
+  color: #821511;
+  text-decoration: none;
+  float: left;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.checkOut-home:hover{
+  text-decoration: none;
+  color: orangered;
+  transition: 0.3s ease-out;
+  
+}
+
+.frenchise-img{
+  background-image: url(./assets/frenchiseHome.jpg);
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+}
+
+.frenchise-img h1{
+  color: white;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-weight: bolder;
+  font-size: 3.5em;
+  text-align: left;
+  padding-top: 30vh;
+}
+
+.frenchise-img p{
+  color: white;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-weight: bolder;
+  font-size: 1.2em;
+  text-align: left;
+  text-decoration: none;
+}
+
+.frenchise-imgcontact:hover{
+  color: #821511;
+  text-decoration: none;
+  transition: 0.3s ease-out;
+}
+
+.api-card{
+  width: 20rem;
+  float: left;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-top: 30px;
+}
+
+.footer-hr{
+  color: white;
+}
+
+.contact-submit{
+  width: 200px;
+  height: 50px;
+}
+
+
+
+
+
+
+
+
